@@ -1,1 +1,4 @@
 # Eat-Da-Burger
+
+This is a Heroku app that can be found at https://eat-da-burger-w-handlebars.herokuapp.com 
+It uses Node, Express, Handlebars, MySQL, and ORM. The app has three columns: burgers not eaten, burgers eaten and create a burger. The not eaten column shows all burgers with a value of false. The eaten column shows all burgers with a value of true. The create a burger column adds a burger to the not eaten column. The dinner plate in the not eaten column allows the user to eat the desired burger so that it is placed in the eaten column. The plus button reorders the burger placing it back into the not eaten column. Moving the burger back and forth uses MySQL commands and the Express's route feature. HandleBars breaks up the single html page to better manage data flow so that students get a taste of what it is like working on large projects. 
